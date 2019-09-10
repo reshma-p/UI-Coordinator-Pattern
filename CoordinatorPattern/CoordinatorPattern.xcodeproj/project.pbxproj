@@ -15,6 +15,7 @@
 		4EBFE5B12328615B00DD81DB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFE5B02328615B00DD81DB /* Coordinator.swift */; };
 		4EBFE5B32328628600DD81DB /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFE5B22328628600DD81DB /* BuyViewController.swift */; };
 		4EBFE5B6232862D000DD81DB /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFE5B5232862D000DD81DB /* Storyboarded.swift */; };
+		4EBFE5B8232864AF00DD81DB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFE5B7232864AF00DD81DB /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4EBFE5B02328615B00DD81DB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		4EBFE5B22328628600DD81DB /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		4EBFE5B5232862D000DD81DB /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		4EBFE5B7232864AF00DD81DB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4EBFE59E2328613900DD81DB /* AppDelegate.swift */,
 				4EBFE5A02328613900DD81DB /* ViewController.swift */,
 				4EBFE5A22328613900DD81DB /* Main.storyboard */,
+				4EBFE5B7232864AF00DD81DB /* MainCoordinator.swift */,
 				4EBFE5A52328613B00DD81DB /* Assets.xcassets */,
 				4EBFE5A72328613B00DD81DB /* LaunchScreen.storyboard */,
 				4EBFE5AA2328613B00DD81DB /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBFE5A12328613900DD81DB /* ViewController.swift in Sources */,
+				4EBFE5B8232864AF00DD81DB /* MainCoordinator.swift in Sources */,
 				4EBFE5B32328628600DD81DB /* BuyViewController.swift in Sources */,
 				4EBFE5B6232862D000DD81DB /* Storyboarded.swift in Sources */,
 				4EBFE59F2328613900DD81DB /* AppDelegate.swift in Sources */,
