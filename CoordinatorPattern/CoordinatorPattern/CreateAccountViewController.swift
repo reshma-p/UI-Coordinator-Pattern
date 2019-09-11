@@ -1,5 +1,5 @@
 //
-//  BuyViewController.swift
+//  CreateAccountViewController.swift
 //  CoordinatorPattern
 //
 //  Created by Reshma Pinto on 11/09/2019.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class BuyViewController: UIViewController {
+class CreateAccountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
 }
