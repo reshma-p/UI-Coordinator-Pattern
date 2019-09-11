@@ -10,7 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    weak var mainCoordinator: MainCoordinator?
+    var mainCoordinator: MainCoordinator?
     var window: UIWindow?
 
 

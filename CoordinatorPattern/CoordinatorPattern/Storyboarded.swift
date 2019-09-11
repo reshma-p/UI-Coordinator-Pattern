@@ -17,6 +17,8 @@ protocol Storyboarded{
 
 /// Default implementation for Storyboarded
 extension Storyboarded where Self: UIViewController{
+    
+    /// Returns a UIViewController, instantiating it from the storyboard.
     static func instantiate() -> Self{
         let id = String(describing: self)
         

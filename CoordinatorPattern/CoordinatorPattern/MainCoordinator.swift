@@ -9,12 +9,13 @@
 import Foundation
 import UIKit
 
-
+/// The initial coordinator
 class MainCoordinator : Coordinator{
     var childCoordinators = [Coordinator]()
     
     var navigationController: UINavigationController
     
+    /// Navigation controller is set during instantiation
     init(navigationController: UINavigationController){
        self.navigationController = navigationController
     }
