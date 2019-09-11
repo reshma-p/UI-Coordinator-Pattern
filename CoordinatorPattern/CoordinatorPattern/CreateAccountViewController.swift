@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateAccountViewController: UIViewController {
+class CreateAccountViewController: UIViewController,Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -9,12 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController,Storyboarded {
+    
+    weak var coordinator: MainCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func buy(_ sender: Any) {
+        coordinator?.buyThings()
+    }
+    @IBAction func createAccount(_ sender: Any) {
+         coordinator?.createAccount()
+    }
+    
 }
 

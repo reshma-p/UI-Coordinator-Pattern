@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BuyViewController: UIViewController {
+class BuyViewController: UIViewController,Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()
